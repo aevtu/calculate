@@ -9,7 +9,7 @@ def calc_multiplication(a,b) -> int:
 
 def calc_divison(a, b) -> float:
     if b != 0:
-      return a \ b
+      return a / b
     else:
 	 print("Деление на 0 нельзя)
 

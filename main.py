@@ -20,10 +20,10 @@ if __name__ == "__main__":
     switch_check = int(input("[INFO] Input '1 - plus, 2 - minus, 3 - multiplication, 4 - division -> "))
 
     if switch_check == 1:
-        print("/n[INFO RESULT] -> " + calc_plus( a , b))
+        print("/n[INFO RESULT] -> ",calc_plus( a , b))
     elif switch_check == 2: 
-        print("/n[INFO RESULT] -> " + calc_minus( a , b))
+        print("/n[INFO RESULT] -> ",calc_minus( a , b))
     elif switch_check == 3:
-        print("/n[INFO RESULT] -> " + calc_multiplication( a , b))
+        print("/n[INFO RESULT] -> ", calc_multiplication( a , b))
     elif switch_check == 4:
-        print("/n[INFO RESULT] -> " + calc_divison(a, b))
+        print("/n[INFO RESULT] -> ", calc_divison(a, b))

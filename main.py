@@ -27,3 +27,5 @@ if __name__ == "__main__":
         print("/n[INFO RESULT] -> ", calc_multiplication( a , b))
     elif switch_check == 4:
         print("/n[INFO RESULT] -> ", calc_divison(a, b))
+
+        print("hello")

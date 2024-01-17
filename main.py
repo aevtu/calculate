@@ -29,3 +29,4 @@ if __name__ == "__main__":
         print("/n[INFO RESULT] -> ", calc_divison(a, b))
 
         print("hello")
+        print('world')
